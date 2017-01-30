@@ -1,10 +1,8 @@
-pub mod maths {
-    pub fn min(a: f32, b: f32) -> f32 {
-        return if a > b { b } else { a };
-    }
-    pub fn min(a: f32, b: f32) -> f32 {
-        return if a < b { b } else { a };
-    }
+pub fn min(a: f32, b: f32) -> f32 {
+    return if a > b { b } else { a };
+}
+pub fn max(a: f32, b: f32) -> f32 {
+    return if a < b { b } else { a };
 }
 #[cfg(test)]
 mod tests {

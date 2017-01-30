@@ -24,6 +24,9 @@ pub fn normalize(a: f32, b: f32, c: f32) -> (f32, f32, f32)
     let t = (a * a + b * b + c * c).sqrt();
     return (a / t, b / t, c / t);
 }
+
+/// To run tests, type "cargo test -- --nocapture"
+
 #[cfg(test)]
 mod tests {
     #[test]

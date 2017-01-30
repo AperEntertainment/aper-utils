@@ -1,8 +1,8 @@
 pub mod maths {
-    fn min(a: f32, b: f32) -> f32 {
+    pub fn min(a: f32, b: f32) -> f32 {
         return if a > b { b } else { a };
     }
-    fn min(a: f32, b: f32) -> f32 {
+    pub fn min(a: f32, b: f32) -> f32 {
         return if a < b { b } else { a };
     }
 }
